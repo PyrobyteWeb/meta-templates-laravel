@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\MetaTemplates;
+
+use PyrobyteWeb\MetaTemplates\Placeholder\TemplatePlaceholderRenderAbstract;
+
+class DummyClass extends TemplatePlaceholderRenderAbstract
+{
+    public function getPlaceholders(): array
+    {
+        return [
+        ];
+    }
+}
